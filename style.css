@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: purple;
+	backdrop-filter: blur(20px);
+	z-index: 5;
+}
+.mymenus{
+	font-weight: bolder;
+	color: white;
+}
+.mymenus:hover{
+	text-decoration:underline 2px solid royalblue;
+	color: orangered;
+}
+.logo{
+	font-family: Arial Black;
+	font-size: 30px;
+	color: orange;
+}
+.allsections{
+	position: relative;
+	top: 80px;
+	width: 100%;
+}
+.section{
+	width: 100%;
+	height: 100vh;
+	border: 5px solid black;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.home-section{
+	border: none;
+	width: 100%;
+	background-image: url("https://static.vecteezy.com/system/resources/previews/023/377/386/original/3d-male-character-happy-working-on-a-laptop-png.png");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-color: whitesmoke;
+	background-position: 90% 2%;
+	height: 400px;
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 10% 4%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: Elephant;
+}
+.myname{
+	font-size: 50px;
+}
+.st{
+	font-family: Potta One;
+	font-size:30px;
+	color: orangered;
+}
+.rsm{
+	height: 50px;
+	width: 100px;
+	margin: 15px 20px ;
+	border: none;
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+.rsm:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid red;
+	transform: scale(0.9);
+}
+
+.about-section{
+	background-color: whitesmoke;
+	border: none;
+	width: 100%;
+	height:500px;
+	display: flex;
+	padding: 20px;
+}
+.aboutsect{
+	height: 500px;
+}
+.myimg{
+	width: 40%;
+}
+.cobj{
+	padding: 30px 60px;
+}
+.carrer{
+	text-align: justify;
+	font-size: 22px;
+	margin-top: 50px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	line-height: 40px;
+}
+
+.skills-section{
+	background-color: whitesmoke;
+	height: 580px;
+	border: none;
+	padding: 20px;
+}
+.rows td{
+	padding: 10px;
+}
+.tbl{
+	margin-top: 50px;
+}
+.skill-head{
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-family: Elphante;
+	color: purple;
+	font-variant: small-caps;
+	text-decoration: underline 2px solid red;
+}
+.skillset{
+	font-weight: bolder;
+	color: royalblue;
+	font-family: sans-serif;
+}
+.rows td div{
+	
+	height: 200px;
+	border-radius: 20px;
+}
+.rows td div:hover{
+	box-shadow: 0px 0px 10px purple;
+}
+
+.project-section{
+	padding: 20px;
+	border: none;
+	background-color: whitesmoke;
+}
+.all-projects{
+	margin-top: 40px;
+}
+.card-title{
+	color: darkred;
+	font-weight: bolder;
+	font-family: Arial Black;
+}
+.card-text{
+	color: blue;
+	font-family: Potta One;
+}
+.card-img-top{
+	height: 200px;
+	width: 200px;
+}
+.project-section{
+	height: 1200px;
+}
+.contact-section{
+	border: none;
+	background-color: grey;
+	padding: 30px;
+}
+.cnt-tbl{
+	margin-top: 30px;
+}
+
+.btn-primary{
+	height: 50px;
+	width: 100px;
+	margin: 15px 20px ;
+	border: none;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+
+.btn-primary:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid red;
+	transform: scale(0.9);
+}
+.sd{
+	color: whitesmoke;
+	font: bolder;
+	font-family: Elphante;
+	font-size: 38px;
+}
+
+.mif{
+	color: darkred;
+	font-size: 42px;
+	font-family: Arial Black;
+	text-decoration: underline 3px white;
+}
+.mifo{
+	font-family: sans-serif;
+	color: black;
+}
+
+.Enquiry{
+	color: darkred;
+	font-size: 42px;
+	font-family: Arial Black;
+	text-decoration: underline 3px white; 
+}
